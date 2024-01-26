@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Panel</title>
+</head>
+<body>
+    <h1>Menu</h1>
+    {% for item, price in menu_details.items %}
+        <p>{{ item }} | {{ price }}</p>
+    {% endfor %}   
+</body>
+</html>
