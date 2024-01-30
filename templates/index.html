@@ -10,5 +10,17 @@
     {% for item, price in menu_details.items %}
         <p>{{ item }} | {{ price }}</p>
     {% endfor %}   
+
+    <h2>Realizar Pedido</h2>
+    <form id="order-form">
+        <label for="customer-name">Nome do Cliente:</label>
+        <input type="text" id="customer-name" required>
+
+        <label for="order-items">Itens do Pedido (separados por vírgula):</label>
+        <input type="text" id="order-items" required>
+
+        <button type="button" onclick="placeOrder()">Realizar Pedido</button>
+    </form>
+
 </body>
 </html>
