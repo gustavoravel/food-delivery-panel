@@ -4,14 +4,14 @@ class FoodDeliverySystem:
     orders_log = {}
     def __init__(self):
         self.menu = {
-            "Burger": 15,
-            "Pizza": 25,
-            "Macarrão": 20,
-            "Salada": 12,
-            "Bebidas": 13,
-            "Miojo": 15,
-            "Sushi": 27,
-            "Pão": 35
+            "Burger": [15, "https://static3.depositphotos.com/1000691/109/i/380/depositphotos_1098427-stock-photo-cheeseburger.jpg"],
+            "Pizza": [25, "https://st2.depositphotos.com/30394798/42225/i/380/depositphotos_422250918-stock-photo-italian-pizza-melted-mozzarella-cheese.jpg"],
+            "Macarrão": [20, "https://static4.depositphotos.com/1006137/306/i/380/depositphotos_3061419-stock-photo-spaghetti-alla-bolognese.jpg"],
+            "Salada": [12, "https://st2.depositphotos.com/2534661/6185/i/380/depositphotos_61856025-stock-photo-fresh-salad.jpg"],
+            "Bebidas": [13, "https://static8.depositphotos.com/1020618/980/i/380/depositphotos_9805108-stock-photo-glass-of-cola.jpg"],
+            "Miojo": [15, "https://st.depositphotos.com/1177973/4353/i/380/depositphotos_43532147-stock-photo-instant-noodles-isolated-on-white.jpg"],
+            "Sushi": [27, "https://static9.depositphotos.com/1036708/1156/i/380/depositphotos_11564565-stock-photo-japanese-sushi.jpg"],
+            "Pão": [35, "https://static8.depositphotos.com/1063437/871/i/380/depositphotos_8711334-stock-photo-loaf-of-bread-isolated-on.jpg"]
             # Add more items to the menu
         }
         self.bill_amount = 0
